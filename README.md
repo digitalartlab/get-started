@@ -1,14 +1,7 @@
 # Get Started
 Starting a new code project? Look here first to select the right technologies.
 
-## What is this?
 This is a collection of guides for starting new projects. It's a living document that will be updated as we learn more about what works and what doesn't.
-
-## How do I use this?
-1. Read the [Introduction](#introduction) to understand the philosophy behind this document.
-2. Read the [Guidelines](#guidelines) to understand the criteria for selecting technologies.
-3. Read the [Technologies](#technologies) to understand the technologies we use and why.
-4. Read the [Resources](#resources) to find more information about the technologies we use.
 
 ## Introduction
 The goal of this document is to help you select the right technologies for your project. By standardizing on a set of technologies, we can maintain a consistent codebase and make it easier to onboard new developers.
