@@ -22,17 +22,19 @@ Since we jump between projects frequently, it's important that we can quickly ge
 - We use automation to build, test and deploy our code. This ensures that we can deploy code quickly and reliably.
 
 ## Technologies
+[Web](#web) | [Serverless](#serverless) | [Server](#server) | [Database](#database) | [IoT](#iot) | [CI/CD](#cicd) | [Authentication](#authentication)
+
 ### Web
 - [Next.js](https://nextjs.org/) is a framework for building web applications with React.
 - [Vercel](https://vercel.com/) is a platform for hosting Next.js applications. It also supports serverless functions to link to a database or other services.
 
-### Serverless Functions
+### Serverless
 We use serverless functions to build our backend. It's a great way to build a scalable backend without having to manage servers. Depending on what you're building, you may want to use a different service.
 
 - [Vercel](https://vercel.com/) is a platform for hosting Next.js applications. It also supports serverless functions to link to a database or other services. Building a web frontend? Include the serverless functions in the same repository.
 - [Digital Ocean App Platform](https://www.digitalocean.com/products/app-platform/) is a platform for hosting serverless functions.
 
-### Stateful backend
+### Server
 Can't use a serverless function? You can use a stateful backend to run your code.
 
 - [Digital Ocean App Platform](https://www.digitalocean.com/products/app-platform/) is a managed platform for hosting stateful backend services. It supports Node.js, Python, PHP, Ruby, Go, Java, and Docker.
@@ -51,6 +53,10 @@ We manage IoT devices (mostly Raspberry Pis) with [Balena](https://www.balena.io
 
 ### CI/CD
 We use GitHub Actions for CI/CD. Services like Vercel and Digital Ocean App Platform have built-in support for GitHub Actions.
+
+### Authentication
+- *CKC Account* is the single sign-on service that we use for customer facing authentication. It's built on [Auth0](https://auth0.com/).
+- [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) is the single sign-on service that we use for internal authentication.
 
 ## Resources
 - [TypeScript](https://www.typescriptlang.org/)
